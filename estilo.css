@@ -1,0 +1,588 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+/*cabecalho*/
+
+header{
+  width: 100%;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  background: rgb(113, 89, 193);
+  
+}
+
+header nav a {
+ text-decoration: none;
+ font-weight: bolder;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+}
+
+header a {
+text-decoration: none;
+}
+
+header ul .inicio{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 5px;
+  display: inline-block;
+
+}
+
+header nav ul a {
+  color: rgb(175, 158, 230);
+}
+
+header nav ul a:hover{
+  text-decoration: none;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 5px;
+  display: inline-block;
+  color: #ffffff;
+
+}
+
+header .pai-header{
+ display: flex;
+ justify-content: space-between;
+ max-width: 1070px;
+ align-items: center;
+
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+ 
+}
+
+header .centralizar{
+  margin: 0 auto;
+  
+}
+
+
+header .logo{
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
+  width: 51px;
+  height: 36px;
+  text-decoration: none;
+  
+}
+
+header ul{
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  margin-left: 15px;
+ 
+}
+
+
+header ul li{
+ margin-left: 15px;
+
+}
+
+header .btn{
+margin-left: 60px;
+font-size: 14px;
+font-weight: 600;
+color: rgb(113, 89, 193);
+background-color: rgb(255, 255, 255);
+padding: 10px 30px;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 15px;
+}
+
+header .sociais{
+  margin-top: 15px;
+  margin-right: 60px;
+ 
+}
+
+header .sociais a{
+  margin: 7px;
+  margin-right: 10px;
+  
+}
+
+header .btn a {
+  margin-left: 10px;
+}
+
+.youtube{
+  margin-left: 20px;
+}
+
+
+
+
+/*corpo da pagina 1*/
+
+.parte1{
+
+}
+
+.pai1{
+  display:flex;
+}
+
+.parte1 .texto{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+margin-left: 160px;
+display: block;
+padding: 30px;
+
+}
+
+
+.parte1 h2{
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  line-height: 48px;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+  
+}
+  
+
+.parte1 p{
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  margin: 10px 0px 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 2px;
+  margin-top: -15px;
+
+}
+
+.parte1 .btn{
+  display: inline-block;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  margin-top: -5px;
+ 
+}
+
+.parte1 .img1{
+
+  
+}
+
+/*corpo da pagina 2*/
+
+
+.parte2{
+  display: flex;
+  background-color: rgb(113, 89, 193);
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+
+.parte2 .espacamento{
+  max-width: 100%;
+  padding: 0px 30px;
+  margin: 0px auto;
+  margin-top: -90px;
+ 
+}
+
+.parte2 .texto2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 580px;
+  color: #ffffff;
+  line-height: 4.0;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 60px;
+  
+}
+
+
+.parte2 .texto2 h2{
+  font-size: 36px;
+  line-height: 1.0;
+  margin-top: 100px;
+}
+
+.partr2 .texto2 h3{
+  font-size: 30px;
+  line-height: 3.0;
+  
+}
+
+.parte2 .texto2 p{
+  line-height: 2;
+}
+
+.parte2 .trofeu{
+  margin-top: -250px;
+  margin-left: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*corpo da pagina 3*/
+
+.parte3 .btn{
+  display: inline-block;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+}
+
+.parte3{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 30px;
+  margin: 0px auto;
+}
+
+.parte3 .starter{
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  line-height: 48px;
+
+}
+
+.parte3 .bootcamp{
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  line-height: 48px;
+  margin-left: 500px;
+  margin-top: -280px;
+}
+
+
+.parte3 p{
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  margin: 10px 0px 0px;
+}
+
+.parte3 h2{
+  display: flex;
+  align-items: center;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+
+}
+
+.parte3 h2 img{
+  margin-right: 30px;
+}
+
+
+/*corpo da pagina 4*/
+
+.parte4{
+  background-color: rgb(241, 239, 255);
+  padding: 60px 0px;
+  margin-top: 50px; 
+  display: flex;
+  
+}
+.parte4 .texto{
+  margin-left: 100px;
+}
+
+.parte4 .btn{
+  display: inline-block;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  margin-left: 100px;
+}
+
+.parte4 .espaço{
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between; 
+  margin-right: 100px; 
+}
+
+.parte4 h2{
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  line-height: 48px;
+  margin-left: 100px;
+}
+
+.parte4 .texto p{
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  margin: 10px 0px 0px;
+  margin-left: 100px;
+}
+
+.parte4 .espaço img{
+  margin-right: 100px;
+}
+
+/*corpo da pagina 5*/
+
+
+.parte5{
+  display: flex;
+}
+
+.parte5 .espaçamento{
+display: flex;
+flex-direction: column;
+}
+
+.parte5 h2{
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.parte5 p{
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  margin: 10px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.parte5 .btn{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.parte5 .btn1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  height: 80px;
+  line-height: 1;
+  padding: 40px;
+  margin-left: 160PX;
+}
+
+
+.parte5 .btn2{
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  height: 80px;
+  line-height: 1;
+  padding: 40px;
+  margin-left: 650px;
+  margin-top: -80px;
+}
+
+/*Rodapé 1*/
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+
+footer .paifooter{
+  display: flex;
+  color: rgb(255, 255, 255);
+  position: relative;
+  background: rgb(113, 89, 193);
+  overflow: hidden;
+  padding: 10px 0px;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+footer .button{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+  padding: 0px 20px;
+  margin-left: 250px;
+}
+
+footer .button input{
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  flex: 1 1 0%;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+footer .paifooter .img1{
+margin-left: 100px;
+}
+
+
+footer .paifooter .footer1 .img2{
+margin-left: 30px;
+margin-top: -05px;
+}
+
+footer .paifooter .footer1 form strong{
+margin-left: 200px;
+
+}
+
+footer .paifooter .footer1 form p{
+margin-left: 200px;
+}
+
+footer .paifooter .footer1 form .button {
+  margin-left: 200px;
+}
+
+footer .paifooter .img4{
+  margin-right: 150px;
+}
+
+footer form{
+  margin-top: -110px;
+  
+}
+
+
+/*Rodapé 2*/
+
+footer .rodape{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1010px;
+  line-height: 1;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  margin: 0px auto;
+  padding: 25px 10px;
+}
+
+footer ul{
+list-style-type:none;
+display: flex;
+
+}
+
+footer ul li a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+footer ul li a:hover{
+  text-decoration: none;
+  border-bottom: 1px solid rgb(102, 102, 102);
+  padding-bottom: 0px;
+  display: inline-block;
+  color:rgb(102, 102, 102);
+}
+
